@@ -3,9 +3,10 @@
 # browser-features.js
 
 Lightweight browser feature detection.
-True/false values for features available from `window.browserFeatures`
 
-###Features supported:
+### How to use:
+
+`window.browserFeatures` provides a true or false value for the following browser features:
 
 * CSS Transform
 * CSS Transition
