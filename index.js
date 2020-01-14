@@ -1,13 +1,17 @@
-;(function(window, undefined){
+module.exports = function(){
 
 	var browserFeatures = {
 		css: {
-			transform: 0,
-			transition: 0
+			transform: false,
+			transition: false
 		},
-		localStorage: 0,
-		svg: 0
+		localStorage: false,
+		svg: false
 	};
+
+	if (typeof window === 'undefined') {
+		return browserFeatures;
+	}
 
 	function testProps(prop) {
 		var body = document.body || document.documentElement,
@@ -59,6 +63,6 @@
 		}
 	}
 	
-	window.browserFeatures = browserFeatures;
+	return browserFeatures;
 
-})(window);
+}();

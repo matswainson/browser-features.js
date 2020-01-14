@@ -1,0 +1,26 @@
+{
+  "name": "browser-features-js",
+  "version": "1.0.0",
+  "description": "Lightweight browser feature detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matswainson/browser-features.js.git"
+  },
+  "keywords": [
+    "browser",
+    "features"
+  ],
+  "author": "Mat Swainson <mat@matswainson.com> (http://matswainson.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matswainson/browser-features.js/issues"
+  },
+  "homepage": "https://github.com/matswainson/browser-features.js#readme",
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
+}
