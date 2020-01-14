@@ -4,9 +4,7 @@
 
 Lightweight browser feature detection.
 
-### How to use:
-
-`window.browserFeatures` provides a true or false value for the following browser features:
+Provides a true or false value for the following browser features:
 
 * CSS Transform
 * CSS Transition
